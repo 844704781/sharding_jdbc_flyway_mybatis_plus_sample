@@ -13,8 +13,11 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain = true)
 public class Commodity {
-    @TableId(type = IdType.AUTO)
-    private Integer id;
+    /**
+     * 一定要用ASSIGN_ID,这样使用的就是配置的雪花算法了
+     */
+    @TableId(type = IdType.ASSIGN_ID)
+    private Long id;
     private String commodityId;
     private String nonce;
 }
