@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        prefix: sharding-jdbc-sample
+        namespace: 653b5b6f-58a8-4989-84a5-072670744869
+        group: DEV_GROUP
+        file-extension: yaml
