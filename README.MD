@@ -1,4 +1,4 @@
-### 这是一个shardingsphere-jdbc + mybatis plus + flyway + springboot +mysql +分布式主键ID案例
+### 这是一个shardingsphere-jdbc + mybatis plus + flyway + springboot +mysql +分布式主键ID + Nacos案例
 
 1. pom.xml中加入sharding-jdbc-spring-boot-starter
 ```xml
